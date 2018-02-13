@@ -1,6 +1,6 @@
-title: sense-hat-sensors
+title: Sense HAT Sensors
 hero_image: images/banner.png
-description: sense-hat-sensors description
+description: Learn to read sensor data from the Sense HAT using Python, and how to create pixel art on the Sense HAT's pixel display
 theme: red # possible values: blue, green, navy, orange, red, turquoise, violet, yellow
 duration: 2 # possible values: 1, 2 or 3
 listed: false
