@@ -1,6 +1,6 @@
-## What you will need
+## Какво ще ви трябва
 
-### Hardware
+### железария
 
-- Raspberry Pi
+- Малина Пи
 - Sense HAT
