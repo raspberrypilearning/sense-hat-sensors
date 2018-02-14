@@ -1,23 +1,19 @@
-## Test the Sense HAT
+## Prova il CAPO SENSIBILE
 
-1. Open Python 3 and enter the following commands directly into the shell:
+1. Apri Python 3 e inserisci i seguenti comandi direttamente nella shell:
     
-    (do not type the chevrons `>>>`)
-    
-    ```python
->>> from sense_hat import SenseHat
->>> sense = SenseHat()
->>> sense.show_message("Hello world")
-```
-
-Press `Enter` after each line, and after the third line, the message should appear on the Sense HAT's display.
-
-2. Now try retrieving the sensor values:
+    (non digitare le frecce `>>>`)
     
     ```python
->>> sense.temperature
->>> sense.humidity
->>> sense.pressure
+>>> da sense_hat import SenseHat>>> sense = SenseHat ()>>> sense.show_message ("Hello world")
 ```
 
-When you press `Enter`, you will see the sensor's value.
+Premere `Invio` dopo ogni riga e dopo la terza riga, il messaggio dovrebbe apparire sul display di Sense HAT.
+
+2. Ora prova a recuperare i valori del sensore:
+    
+    ```python
+>>> sense.temperature>>> sense.humidity>>> sense.pressure
+```
+
+Quando premi `Invio`, vedrai il valore del sensore.
