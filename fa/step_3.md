@@ -1,23 +1,19 @@
-## Test the Sense HAT
+## تست HAT Sense
 
-1. Open Python 3 and enter the following commands directly into the shell:
+1. باز کردن پایتون 3 و دستورات زیر را مستقیما وارد پوسته کنید:
     
-    (do not type the chevrons `>>>`)
-    
-    ```python
->>> from sense_hat import SenseHat
->>> sense = SenseHat()
->>> sense.show_message("Hello world")
-```
-
-Press `Enter` after each line, and after the third line, the message should appear on the Sense HAT's display.
-
-2. Now try retrieving the sensor values:
+    (شویرون را تایپ نکنید `>>>`)
     
     ```python
->>> sense.temperature
->>> sense.humidity
->>> sense.pressure
+>>> از sense_hat واردات SenseHat>>> احساس = SenseHat ()>>> sense.show_message ("سلام جهان")
 ```
 
-When you press `Enter`, you will see the sensor's value.
+مطبوعات `ورود` پس از هر خط، و بعد از خط سوم، پیام باید بر روی صفحه نمایش Sense HAT ظاهر شود.
+
+2. اکنون ارزشهای حسگر را بازیابی کنید:
+    
+    ```python
+>>> حس دما>>> حس رطوبت>>> احساس فشار
+```
+
+وقتی فشار دهید `وارد`، مقدار حسگر را خواهید دید.
