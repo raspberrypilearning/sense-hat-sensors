@@ -1,36 +1,11 @@
-## Faces
+## 顔
 
-1. Open a new window and type:
+1. 新しいウィンドウを開き、次のように入力します。
     
     ```python
-from sense_hat import SenseHat
-from time import sleep
-
-sense = SenseHat()
-
-r = (255, 0, 0)
-g = (0, 255, 0)
-b = (0, 0, 255)
-y = (255, 255, 0)
-p = (255, 0, 255)
-c = (0, 255, 255)
-w = (255, 255, 255)
-e = (0, 0, 0)
-
-icon = [
-    e, e, e, e, e, e, e, e,
-    e, e, e, e, e, e, e, e,
-    e, e, b, e, e, b, e, e,
-    e, e, e, e, e, e, e, e,
-    e, e, e, e, e, e, e, e,
-    e, b, e, e, e, e, b, e,
-    e, b, b, b, b, b, b, e,
-    e, e, e, e, e, e, e, e,
-]
-
-sense.set_pixels(icon)
+from sense_hat import SenseHat from time import睡眠センス= SenseHat（）r =（255,0,0）g =（0,255,0）b =（0、0、255）y =（255,255,0）p =（255,0,255）c =（0,255,255）w =（255,255,255）e =（0,0,0）アイコン= [e、e、e、e、e、e、 e、e、e、e、e、e、e、e、e、e、e、e、e、e、 b、b、b、b、e、e、e、e、e、e、e、e、e、e、 e、e、e、e、e、e、e、e、e、] sense.set_pixels（アイコン）
 ```
 
-2. Now make your own icon using the colours (`r` is red, `g` is green, `b` is blue and so on). Your icon must be 8x8 like the example.
+2. `r`が赤、`g`が緑色、`b`が青色など）の色を使用して独自のアイコンを作成します。 あなたのアイコンは例のように8x8でなければなりません。
 
-3. Run the code with `F5` and you should see your icon on the Sense HAT display.
+3. コードを`F5`で実行します。 Sense HATディスプレイにアイコンが表示されます。
