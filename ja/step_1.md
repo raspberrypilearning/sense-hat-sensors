@@ -1,3 +1,3 @@
-## Introduction
+## 前書き
 
-Learn to read sensor data from the Sense HAT using Python, and how to create pixel art on the Sense HAT's pixel display
+Pythonを使用してSense HATからセンサーデータを読み取る方法、Sense HATのピクセル表示でピクセルアートを作成する方法を学ぶ
