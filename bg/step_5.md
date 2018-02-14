@@ -1,17 +1,9 @@
-## Make it hot
+## Направи го горещо
 
-1. Replace the last line with:
+1. Заменете последния ред с:
     
     ```python
-start_temperature = sense.temperature
-
-while True:
-    print(sense.temperature)
-    if sense.temperature > start_temperature + 2:
-        sense.set_pixels(icon)
-    else:
-        sense.clear()
-    sleep(1)
+start_temperature = sense.temperature докато True: print (sens.temperature) ако sense.temperature > start_temperature + 2: sense.set_pixels (икона) else: sense.clear () sleep (1)
 ```
 
-2. Run the code again. Now press your finger against the temperature sensor on the Sense HAT and see if you can make your icon appear!
+2. Стартирайте отново кода. Сега натиснете пръста си върху температурния сензор на Sense HAT и вижте дали можете да направите вашата икона да се появи!
