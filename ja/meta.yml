@@ -1,0 +1,24 @@
+---
+title: センスHATセンサー
+hero_image: images / banner.png
+description: Pythonを使用してSense HATからセンサーデータを読み取る方法、Sense HATのピクセル表示でピクセルアートを作成する方法を学ぶ
+theme: 赤
+duration: 2
+listed: false
+ingredient: false
+copyedit: false
+curriculum: プログラミング-0、phys-comp-0
+interests: "物理計算"
+technologies: "センスハット、物理計算、Python"
+site_areas: ""
+steps:
+  - 
+    title: 前書き
+  - 
+    title: あなたが必要とするもの
+  - 
+    title: センスHATをテストする
+  - 
+    title: 顔
+  - 
+    title: それを熱くする
