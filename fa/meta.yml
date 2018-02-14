@@ -1,24 +1,24 @@
 ---
-title: Sense HAT Sensors
-hero_image: images/banner.png
-description: Learn to read sensor data from the Sense HAT using Python, and how to create pixel art on the Sense HAT's pixel display
-theme: red
+title: سنسور حسگر حساس
+hero_image: images / banner.png
+description: یاد بگیرید برای خواندن اطلاعات سنسور از Sense HAT با استفاده از پایتون و نحوه ایجاد هنر پیکسل در صفحه پیکسل Sense HAT
+theme: سرخ
 duration: 2
 listed: false
 ingredient: false
 copyedit: false
-curriculum: programming-0, phys-comp-0
-interests: "physical computing"
-technologies: "sense-hat, physical computing, python"
+curriculum: programming-0، phys-comp-0
+interests: "محاسبات فیزیکی"
+technologies: "حس کلاه، محاسبات فیزیکی، پایتون"
 site_areas: ""
 steps:
   - 
-    title: Introduction
+    title: معرفی
   - 
-    title: What you will need
+    title: آنچه شما نیاز دارید
   - 
-    title: Test the Sense HAT
+    title: تست HAT Sense
   - 
-    title: Faces
+    title: چهره ها
   - 
-    title: Make it hot
+    title: داغ کن
