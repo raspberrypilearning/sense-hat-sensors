@@ -1,24 +1,24 @@
 ---
-title: Sense HAT Sensors
-hero_image: images/banner.png
-description: Learn to read sensor data from the Sense HAT using Python, and how to create pixel art on the Sense HAT's pixel display
-theme: red
+title: Sense HAT érzékelők
+hero_image: images / banner.png
+description: Tanulja meg a Sensor adatok olvasását a Sense HAT-ból Python segítségével, és hogyan készítsen pixel artot a Sense HAT képpont kijelzőjén
+theme: piros
 duration: 2
 listed: false
 ingredient: false
 copyedit: false
-curriculum: programming-0, phys-comp-0
-interests: "physical computing"
-technologies: "sense-hat, physical computing, python"
+curriculum: programozás-0, fizikai-comp-0
+interests: "fizikai számítástechnika"
+technologies: "sense-kalap, fizikai számítástechnika, python"
 site_areas: ""
 steps:
   - 
-    title: Introduction
+    title: Bevezetés
   - 
-    title: What you will need
+    title: Amire szükséged lesz
   - 
-    title: Test the Sense HAT
+    title: Tesztelje a Sense HAT-ot
   - 
-    title: Faces
+    title: arcok
   - 
-    title: Make it hot
+    title: Forró
