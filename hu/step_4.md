@@ -1,36 +1,11 @@
-## Faces
+## arcok
 
-1. Open a new window and type:
+1. Nyisson meg egy új ablakot, és írja be:
     
     ```python
-from sense_hat import SenseHat
-from time import sleep
-
-sense = SenseHat()
-
-r = (255, 0, 0)
-g = (0, 255, 0)
-b = (0, 0, 255)
-y = (255, 255, 0)
-p = (255, 0, 255)
-c = (0, 255, 255)
-w = (255, 255, 255)
-e = (0, 0, 0)
-
-icon = [
-    e, e, e, e, e, e, e, e,
-    e, e, e, e, e, e, e, e,
-    e, e, b, e, e, b, e, e,
-    e, e, e, e, e, e, e, e,
-    e, e, e, e, e, e, e, e,
-    e, b, e, e, e, e, b, e,
-    e, b, b, b, b, b, b, e,
-    e, e, e, e, e, e, e, e,
-]
-
-sense.set_pixels(icon)
+a sense_hat import SenseHat az importálás időpontjától alvás sense = SenseHat () r = (255, 0, 0) g = (0, 255, 0) b = (0, 0, 255) y = (255, 255, = (255, 0, 255) c = (255, 255, 255) e = (0, 0, 0) icon = [e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, b, e, e, b, b, b, b, b, b, e, e, e, e, e, e, e, e, e, e, e,] sense.set_pixels (ikon)
 ```
 
-2. Now make your own icon using the colours (`r` is red, `g` is green, `b` is blue and so on). Your icon must be 8x8 like the example.
+2. Most készítsd el saját ikonját a színek használatával (`r` piros, `g` zöld, `b` kék és így tovább). Az ikonnak a példához hasonlóan 8x8-asnak kell lennie.
 
-3. Run the code with `F5` and you should see your icon on the Sense HAT display.
+3. Futtassa a kódot a `F5` paranccsal és látnod kell az ikonját a Sense HAT kijelzőn.
