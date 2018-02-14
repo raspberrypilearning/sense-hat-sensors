@@ -1,36 +1,11 @@
 ## Faces
 
-1. Open a new window and type:
+1. Отворете нов прозорец и въведете:
     
     ```python
-from sense_hat import SenseHat
-from time import sleep
-
-sense = SenseHat()
-
-r = (255, 0, 0)
-g = (0, 255, 0)
-b = (0, 0, 255)
-y = (255, 255, 0)
-p = (255, 0, 255)
-c = (0, 255, 255)
-w = (255, 255, 255)
-e = (0, 0, 0)
-
-icon = [
-    e, e, e, e, e, e, e, e,
-    e, e, e, e, e, e, e, e,
-    e, e, b, e, e, b, e, e,
-    e, e, e, e, e, e, e, e,
-    e, e, e, e, e, e, e, e,
-    e, b, e, e, e, e, b, e,
-    e, b, b, b, b, b, b, e,
-    e, e, e, e, e, e, e, e,
-]
-
-sense.set_pixels(icon)
+(255, 0, 0) g = (0, 255, 0) b = (0, 255) y = (255, 255, 0) p = (255, 0, 255) c = (0, 255, 255) w = (255, 255, 255) e, e, e, e, e, e, e, e, e, b, e, e, e, e, e, e, e, e, e, e, e, b, e, e, b, b, e, e, e, e, e, e, e,] sense.set_pixels (икона)
 ```
 
-2. Now make your own icon using the colours (`r` is red, `g` is green, `b` is blue and so on). Your icon must be 8x8 like the example.
+2. Сега направете своя собствена икона с помощта на цветовете (`r` е червено, `g` е зелено, `|` е синьо и така нататък). Вашата икона трябва да е 8x8 като пример.
 
-3. Run the code with `F5` and you should see your icon on the Sense HAT display.
+3. Изпълнете кода с `F5` и трябва да видите иконата си на дисплея на Sense HAT.
