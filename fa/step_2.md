@@ -1,6 +1,6 @@
-## What you will need
+## آنچه شما نیاز دارید
 
-### Hardware
+### سخت افزار
 
-- Raspberry Pi
-- Sense HAT
+- تمشک پی
+- حس شانس
