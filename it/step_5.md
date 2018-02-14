@@ -1,17 +1,9 @@
-## Make it hot
+## Rendilo caldo
 
-1. Replace the last line with:
+1. Sostituisci l'ultima riga con:
     
     ```python
-start_temperature = sense.temperature
-
-while True:
-    print(sense.temperature)
-    if sense.temperature > start_temperature + 2:
-        sense.set_pixels(icon)
-    else:
-        sense.clear()
-    sleep(1)
+start_temperature = sense.temperature while True: print (senso.temperatura) se sense.temperature > start_temperature + 2: sense.set_pixels (icona) else: sense.clear () sleep (1)
 ```
 
-2. Run the code again. Now press your finger against the temperature sensor on the Sense HAT and see if you can make your icon appear!
+2. Esegui nuovamente il codice. Ora premi il dito contro il sensore di temperatura sul SENS HAT e vedi se riesci a far apparire l'icona!
