@@ -1,6 +1,6 @@
-## What you will need
+## Ce dont tu auras besoin
 
-### Hardware
+### Matériel
 
-- Raspberry Pi
-- Sense HAT
+- Tarte aux framboises
+- Sens HAT
