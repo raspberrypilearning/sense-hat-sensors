@@ -1,4 +1,4 @@
-## Test de Sense HAT
+## Testen de Sense HAT
 
 1. Open Python 3 en voer de volgende opdrachten rechtstreeks in de shell in:
     
