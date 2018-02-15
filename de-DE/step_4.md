@@ -31,6 +31,6 @@ icon = [
 sensoren.set_pixels(icon)
 ```
 
-2. Erstellen Sie nun Ihr eigenes Icon mit den Farben (`r` ist rot, `g` ist grün, `b` ist blau usw.). Ihr Symbol muss wie das Beispiel 8x8 sein.
+2. Erstelle nun dein eigenes Icon mit den Farben (`r` ist rot, `g` ist grün, `b` ist blau usw.). Dein Symbol muss wie das Beispiel 8x8 sein.
 
-3. Führen Sie den Code mit `F5` aus und Sie sollten Ihr Symbol auf dem Sense HAT-Display sehen.
+3. Führe den Code mit `F5` aus und du solltest dein Symbol auf dem Sense HAT-Display sehen.
