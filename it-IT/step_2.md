@@ -1,6 +1,6 @@
-## Di cosa avrai bisogno
+## Cosa ti serve
 
 ### Hardware
 
 - Raspberry Pi
-- CAPPELLO SENS
+- Sense HAT
