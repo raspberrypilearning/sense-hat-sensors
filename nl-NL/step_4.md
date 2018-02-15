@@ -1,4 +1,4 @@
-## gezichten
+## Gezichten
 
 1. Open een nieuw venster en typ:
     
@@ -6,6 +6,6 @@
 from sense_hat importeer SenseHat van tijdimport slaap sense = SenseHat () r = (255, 0, 0) g = (0, 255, 0) b = (0, 0, 255) y = (255, 255, 0) p = (255, 0, 255) c = (0, 255, 255) w = (255, 255, 255) e = (0, 0, 0) icon = [e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, b, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e. e, e, e, e, e, e, e, b, e, e, e, b, e, b, b, b, b, b, b, e, e, e, e, e, e, e, e,] sense.set_pixels (pictogram)
 ```
 
-2. Maak nu je eigen pictogram met de kleuren (`r` is rood, `g` is groen, `b` is blauw enzovoort). Uw pictogram moet 8x8 zijn zoals het voorbeeld.
+2. Maak nu je eigen pictogram met de kleuren (`r` is rood, `g` is groen, `b` is blauw enzovoort). Uw pictogram moet 8x8 zijn, zoals het voorbeeld.
 
-3. Voer de code uit met `F5` en je zou je icoon moeten zien op de Sense HAT-display.
+3. Voer de code uit met `F5` en je zou je pictogram moeten zien op de Sense HAT-display.
