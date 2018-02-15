@@ -2,7 +2,7 @@
 
 1. Open Python 3 en voer de volgende opdrachten rechtstreeks in de shell in:
     
-    (typ niet de chevrons `>>>`)
+    (sla de haakjes bij het invoeren over `>>>`)
     
     ```python
 >>> from sense_hat import SenseHat>>> sense = SenseHat ()>>> sense.show_message ("Hallo wereld")
