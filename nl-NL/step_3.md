@@ -1,4 +1,4 @@
-## Testen de Sense HAT
+## Testen van de Sense HAT
 
 1. Open Python 3 en voer de volgende opdrachten rechtstreeks in de shell in:
     
@@ -16,4 +16,4 @@ Druk op `Enter` na elke regel en na de derde regel verschijnt het bericht op het
 >>> sense.temperature>>> sense.humidity>>> sense.pressure
 ```
 
-Wanneer u op `Enter`drukt, ziet u de waarde van de sensor.
+Wanneer je op `Enter`drukt, ziet u de waarde van de sensor.
