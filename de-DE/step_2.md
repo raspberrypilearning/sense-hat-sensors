@@ -1,6 +1,6 @@
-## Was wirst du brauchen
+## Was du brauchen wirst
 
 ### Hardware
 
 - Raspberry Pi
-- Sinn HUT
+- Sense HAT
