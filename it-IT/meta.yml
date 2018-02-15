@@ -1,24 +1,24 @@
 ---
-title: Sensori HAT Senso
-hero_image: images / banner.png
-description: Impara a leggere i dati dei sensori da HAT Sense usando Python e come creare pixel art sul display dei pixel di Sense HAT
-theme: rosso
+title: I sensori del Sense HAT
+hero_image: images/banner.png
+description: Imparare a leggere i dati forniti dai sensori del Sense HAT usando Python, e come usare la pixel art sul display del Sense HAT
+theme: red
 duration: 2
 listed: false
 ingredient: false
 copyedit: false
-curriculum: programmazione-0, compatta-0
-interests: "calcolo fisico"
-technologies: "sense-hat, calcolo fisico, pitone"
+curriculum: programming-0, phys-comp-0
+interests: "physical computing"
+technologies: "sense-hat, physical computing, python"
 site_areas: ""
 steps:
   - 
-    title: introduzione
+    title: Introduzione
   - 
-    title: Di cosa avrai bisogno
+    title: Cosa ti serve
   - 
-    title: Prova il CAPO SENSIBILE
+    title: Prova il Sense HAT
   - 
-    title: Faces
+    title: Le espressioni facciali
   - 
-    title: Rendilo caldo
+    title: Fallo scaldare
