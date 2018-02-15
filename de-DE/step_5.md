@@ -1,6 +1,6 @@
 ## Mach es heiß
 
-1. Ersetzen Sie die letzte Zeile durch:
+1. Ersetze die letzte Zeile durch:
     
     ```python
 start_temperatur = sensoren.temperature
