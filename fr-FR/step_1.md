@@ -1,3 +1,3 @@
 ## introduction
 
-Apprenez à lire les données des capteurs du Sense HAT en utilisant Python, et comment créer des images pixel sur l'affichage des pixels du Sense HAT
+Apprenez à lire les données des capteurs du Sense HAT en utilisant Python, et à créer des images en pixels sur l'écran d'affichage des pixels du Sense HAT
