@@ -1,13 +1,13 @@
 ---
-title: Sens Détecteurs HAT
-hero_image: images / banner.png
-description: Apprenez à lire les données des capteurs du Sense HAT en utilisant Python, et comment créer des images pixel sur l'affichage des pixels du Sense HAT
+title: Capeturs du Sense HAT
+hero_image: images/banner.png
+description: Apprenez à lire les données des capteurs du Sense HAT avec Python et à afficher de l'art pixel sur l'affichage du Sense HAT
 theme: rouge
 duration: 2
 listed: false
 ingredient: false
 copyedit: false
-curriculum: programmation-0, phys-comp-0
+curriculum: programming-0, phys-comp-0
 interests: "informatique physique"
 technologies: "sense-hat, informatique physique, python"
 site_areas: ""
