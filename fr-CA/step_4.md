@@ -31,6 +31,6 @@ icone = [
 sense.set_pixels(icone)
 ```
 
-2. Créez maintenant votre propre icône en utilisant les couleurs (`r` est rouge, `g` est vert, `b` est bleu et ainsi de suite). Votre icône doit être 8x8 comme l'exemple.
+2. Maintenant, faites votre propre icône en utilisant les couleurs (`r` est rouge, `v` est vert, `b` est bleu, et ainsi de suite). Votre icône doit avoir 8x8 pixels comme l'exemple.
 
-3. Exécutez le code avec `F5` et vous devriez voir votre icône sur l'écran Sense HAT.
+3. Exécutez le code avec la touche `F5` et vous devriez voir votre icône sur l'affichage du Sense HAT.
