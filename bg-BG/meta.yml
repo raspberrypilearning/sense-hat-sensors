@@ -1,0 +1,24 @@
+---
+title: Sense сензори за HAT
+hero_image: изображения / banner.png
+description: Научете се да четете сензорни данни от Sense HAT, използвайки Python, и как да създадете пикселно изкуство в пикселния дисплей на Sense HAT
+theme: червен
+duration: 2
+listed: false
+ingredient: false
+copyedit: false
+curriculum: програмиране-0, phys-comp-0
+interests: "физически изчисления"
+technologies: "смислена шапка, физически изчисления, питон"
+site_areas: ""
+steps:
+  - 
+    title: Въведение
+  - 
+    title: Какво ще ви трябва
+  - 
+    title: Тествайте Sense HAT
+  - 
+    title: Faces
+  - 
+    title: Направи го горещо
