@@ -1,22 +1,12 @@
 title: Sense HAT Sensors
-hero_image: images/cover.png
+hero_image: images/banner.png
 description: Learn to read sensor data from the Sense HAT using Python, and how to create pixel art on the Sense HAT's pixel display
-theme: red # possible values: blue, green, navy, orange, red, turquoise, violet, yellow
-duration: 2
 listed: false
-ingredient: false
 copyedit: false
-curriculum: 1, design-0, programming-1, phys-comp-1, manufacture-0, community-0
-interests: ''
-technologies: sense-hat, electronic-components, python
-site_areas: jam
-hardware: sense-hat, electronic-components
-software: python
-version: 4
-last_tested: 2017-01-01
-steps: 
+version: 4.1
+last_tested: 2018-11-21
+steps:
 - title: Introduction
-- title: What you will need
 - title: Test the Sense HAT
 - title: Faces
 - title: Make it hot
