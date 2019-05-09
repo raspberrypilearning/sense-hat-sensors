@@ -1,24 +1,17 @@
 ---
-title: سنسور حسگر حساس
-hero_image: images / banner.png
-description: یاد بگیرید برای خواندن اطلاعات سنسور از Sense HAT با استفاده از پایتون و نحوه ایجاد هنر پیکسل در صفحه پیکسل Sense HAT
-theme: سرخ
-duration: 2
+title: حسگرهای Sense HAT
+hero_image: images/banner.png
+description: یادگیری نحوه‌ی خواندن اطلاعات حسگر از Sense HAT با استفاده از پایتون و نحوه‌ی ایجاد پیکسل بر روی نمایشگر پیکسلی Sense HAT
 listed: false
-ingredient: false
 copyedit: false
-curriculum: programming-0، phys-comp-0
-interests: "محاسبات فیزیکی"
-technologies: "حس کلاه، محاسبات فیزیکی، پایتون"
-site_areas: ""
+version: 4.1
+last_tested: 2018-11-21
 steps:
   - 
     title: معرفی
   - 
-    title: آنچه شما نیاز دارید
+    title: Test the Sense HAT
   - 
-    title: تست HAT Sense
+    title: Faces
   - 
-    title: چهره ها
-  - 
-    title: داغ کن
+    title: Make it hot
