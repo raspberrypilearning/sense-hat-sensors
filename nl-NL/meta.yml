@@ -2,23 +2,16 @@
 title: Sense HAT-sensoren
 hero_image: images / banner.png
 description: Leer hoe je sensorgegevens van de Sense HAT kunt lezen met Python en hoe je pixel art kunt maken met de pixeldisplay van de Sense HAT
-theme: red
-duration: 2
 listed: false
-ingredient: false
 copyedit: false
-curriculum: programming-0, phys-comp-0
-interests: "fysiek computergebruik"
-technologies: "sense-hat, fysieke computergebruik, python"
-site_areas: ""
+version: 4.1
+last_tested: 2018-11-21
 steps:
   - 
     title: Introductie
   - 
-    title: Wat je nodig hebt
+    title: Test the Sense HAT
   - 
-    title: Test de Sense HAT
+    title: Faces
   - 
-    title: Gezichten
-  - 
-    title: Maak het heet
+    title: Make it hot
