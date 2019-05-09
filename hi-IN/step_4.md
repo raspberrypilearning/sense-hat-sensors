@@ -1,11 +1,25 @@
-## चेहरे के
+## Make it hot
 
-1. एक नई विंडो और प्रकार खोलें:
-    
-    ```python
-sense_hat से SenseHat समय से आयात नींद के अर्थ = SenseHat () r = (255, 0, 0) जी = (0, 255, 0) बी = (0, 0, 255) y = (255, 255, 0) p = (255, 0, 255) c = (0, 255, 255) w = (255, 255, 255) ई = (0, 0, 0) आइकन = [ई, ई, ई, ई, ई, ई, ई, ई, ई, ई, ई, ई, ई, ई, ई, ई, ई, ई, ई, ई, ई, ई, ई, ई, ई, बी, ई, ई, ई, ई, ई, ई, ई, ई, ई, ई, ई, बी, ई, ई, ई, ई, बी, ई, ई, बी, बी, बी, बी, बी, बी, ई, e, e, e, e, e, e, e, e,] sense.set_pixels (आइकन)
+\--- task \---
+
+Replace the last line with:
+
+```python
+start_temperature = sense.temperature
+
+while True:
+    print(sense.temperature)
+    if sense.temperature > start_temperature + 2:
+        sense.set_pixels(icon)
+    else:
+        sense.clear()
+    sleep(1)
 ```
 
-2. अब रंगों का उपयोग करके अपना खुद का आइकन बनाएं (`r` लाल, `जी` हरा है, 123_6_4_321 | बी</code> नीला और ऐसा है) उदाहरण के लिए आपका आइकन 8x8 होना चाहिए।
+\--- /task \---
 
-3. साथ कोड चलाएं `F5` और आपको सेंस एचएटी डिस्प्ले पर अपना आइकन देखना चाहिए।
+\--- task \---
+
+Run the code again. Now press your finger against the temperature sensor on the Sense HAT and see if you can make your icon appear!
+
+\--- /task \---
