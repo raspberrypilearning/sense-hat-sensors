@@ -1,11 +1,25 @@
-## Gezichten
+## Make it hot
 
-1. Open een nieuw venster en typ:
-    
-    ```python
-from sense_hat import SenseHat van time import sleep sense = SenseHat () r = (255, 0, 0) g = (0, 255, 0) b = (0, 0, 255) y = (255, 255, 0) p = (255, 0, 255) c = (0, 255, 255) w = (255, 255, 255) e = (0, 0, 0) icon = [e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, b, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e. e, e, e, e, e, e, e, b, e, e, e, b, e, b, b, b, b, b, b, e, e, e, e, e, e, e, e,] sense.set_pixels (pictogram)
+\--- task \---
+
+Replace the last line with:
+
+```python
+start_temperature = sense.temperature
+
+while True:
+    print(sense.temperature)
+    if sense.temperature > start_temperature + 2:
+        sense.set_pixels(icon)
+    else:
+        sense.clear()
+    sleep(1)
 ```
 
-2. Maak nu je eigen pictogram met de kleuren (`r` is rood, `g` is groen, `b` is blauw enzovoort). Je pictogram moet 8x8 zijn, zoals het voorbeeld.
+\--- /task \---
 
-3. Voer de code uit met `F5` en je zou je pictogram moeten zien op het Sense HAT-display.
+\--- task \---
+
+Run the code again. Now press your finger against the temperature sensor on the Sense HAT and see if you can make your icon appear!
+
+\--- /task \---
