@@ -1,19 +1,48 @@
-## Testen van de Sense HAT
+## Faces
 
-1. Open Python 3 en voer de volgende opdrachten rechtstreeks in de shell in:
-    
-    (sla de haakjes bij het invoeren over `>>>`)
-    
-    ```python
->>> from sense_hat import SenseHat>>> sense = SenseHat ()>>> sense.show_message ("Hallo wereld")
+\--- task \---
+
+Open a new window and type:
+
+```python
+from sense_hat import SenseHat
+from time import sleep
+
+sense = SenseHat()
+
+r = (255, 0, 0)
+g = (0, 255, 0)
+b = (0, 0, 255)
+y = (255, 255, 0)
+p = (255, 0, 255)
+c = (0, 255, 255)
+w = (255, 255, 255)
+e = (0, 0, 0)
+
+icon = [
+    e, e, e, e, e, e, e, e,
+    e, e, e, e, e, e, e, e,
+    e, e, b, e, e, b, e, e,
+    e, e, e, e, e, e, e, e,
+    e, e, e, e, e, e, e, e,
+    e, b, e, e, e, e, b, e,
+    e, b, b, b, b, b, b, e,
+    e, e, e, e, e, e, e, e,
+]
+
+sense.set_pixels(icon)
 ```
 
-Druk op `Enter` na elke regel en na de derde regel verschijnt het bericht op het scherm van de Sense HAT.
+\--- /task \---
 
-2. Probeer nu de sensorwaarden op te halen:
-    
-    ```python
->>> sense.temperature>>> sense.humidity>>> sense.pressure
-```
+\--- task \---
 
-Wanneer je op `Enter`drukt, ziet u de waarde van de sensor.
+Now make your own icon using the colours (`r` is red, `g` is green, `b` is blue and so on). Your icon must be 8x8 like the example.
+
+\--- /task \---
+
+\--- task \---
+
+Run the code with `F5` and you should see your icon on the Sense HAT display.
+
+\--- /task \---
