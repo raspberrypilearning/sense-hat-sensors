@@ -1,19 +1,48 @@
-## センスHATをテストする
+## Faces
 
-1. Python 3を開き、次のコマンドをシェルに直接入力します。
-    
-    （シェブロンを入力しないでください`>>>`）
-    
-    ```python
->>> sense_hatからのインポートSenseHat>>> sense = SenseHat（）>>> sense.show_message（ "Hello world"）
+\--- task \---
+
+Open a new window and type:
+
+```python
+from sense_hat import SenseHat
+from time import sleep
+
+sense = SenseHat()
+
+r = (255, 0, 0)
+g = (0, 255, 0)
+b = (0, 0, 255)
+y = (255, 255, 0)
+p = (255, 0, 255)
+c = (0, 255, 255)
+w = (255, 255, 255)
+e = (0, 0, 0)
+
+icon = [
+    e, e, e, e, e, e, e, e,
+    e, e, e, e, e, e, e, e,
+    e, e, b, e, e, b, e, e,
+    e, e, e, e, e, e, e, e,
+    e, e, e, e, e, e, e, e,
+    e, b, e, e, e, e, b, e,
+    e, b, b, b, b, b, b, e,
+    e, e, e, e, e, e, e, e,
+]
+
+sense.set_pixels(icon)
 ```
 
-プレス`入力`各行の後、3行目の後に、Sense HATのディスプレイにメッセージが表示されます。
+\--- /task \---
 
-2. 次にセンサー値を取得してみましょう：
-    
-    ```python
->>> sense.temperature>>> sense.humidity>>>感圧
-```
+\--- task \---
 
-`Enter`を押すと、センサーの値が表示されます。
+Now make your own icon using the colours (`r` is red, `g` is green, `b` is blue and so on). Your icon must be 8x8 like the example.
+
+\--- /task \---
+
+\--- task \---
+
+Run the code with `F5` and you should see your icon on the Sense HAT display.
+
+\--- /task \---
