@@ -1,19 +1,48 @@
-## Tesztelje a Sense HAT-ot
+## Faces
 
-1. Nyissa meg a Python 3 parancsot, és adja meg a következő parancsokat közvetlenül a shell-ba:
-    
-    (ne írja be a chevrons `>>>`)
-    
-    ```python
->>> sense_hat import SenseHat>>> sense = SenseHat ()>>> sense.show_message ("Hello world")
+\--- task \---
+
+Open a new window and type:
+
+```python
+from sense_hat import SenseHat
+from time import sleep
+
+sense = SenseHat()
+
+r = (255, 0, 0)
+g = (0, 255, 0)
+b = (0, 0, 255)
+y = (255, 255, 0)
+p = (255, 0, 255)
+c = (0, 255, 255)
+w = (255, 255, 255)
+e = (0, 0, 0)
+
+icon = [
+    e, e, e, e, e, e, e, e,
+    e, e, e, e, e, e, e, e,
+    e, e, b, e, e, b, e, e,
+    e, e, e, e, e, e, e, e,
+    e, e, e, e, e, e, e, e,
+    e, b, e, e, e, e, b, e,
+    e, b, b, b, b, b, b, e,
+    e, e, e, e, e, e, e, e,
+]
+
+sense.set_pixels(icon)
 ```
 
-Nyomja meg a 123_6_0_321 | Enter</code> gombot minden sor után és a harmadik sor után az üzenet megjelenik a Sense HAT kijelzőjén.
+\--- /task \---
 
-2. Most próbálja meg lekérni az érzékelő értékeit:
-    
-    ```python
->>> sense.temperature>>> sense.humidity>>> sense.pressure
-```
+\--- task \---
 
-Ha megnyomja a `Enter`gombot, megjelenik az érzékelő értéke.
+Now make your own icon using the colours (`r` is red, `g` is green, `b` is blue and so on). Your icon must be 8x8 like the example.
+
+\--- /task \---
+
+\--- task \---
+
+Run the code with `F5` and you should see your icon on the Sense HAT display.
+
+\--- /task \---
