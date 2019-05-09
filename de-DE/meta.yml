@@ -1,24 +1,17 @@
 ---
 title: Sense HAT Sensoren
 hero_image: images/banner.png
-description: Lerne, mit Python Sensordaten aus dem Sense HAT zu lesen und wie du Pixelgrafiken auf der Pixelanzeige des Sense HATs erstellst
-theme: red
-duration: 2
+description: Lerne, wie du mit Python Sensordaten aus dem Sense HAT lesen kannst und wie du Pixelgrafiken auf der Pixelanzeige des Sense HAT darstellst
 listed: false
-ingredient: false
 copyedit: false
-curriculum: programming-0, phys-comp-0
-interests: "physical computing"
-technologies: "sense-hat, physical computing, python"
-site_areas: ""
+version: 4.1
+last_tested: 2018-11-21
 steps:
   - 
     title: Einleitung
   - 
-    title: Was du brauchen wirst
+    title: Test the Sense HAT
   - 
-    title: Teste das Sense-HAT
+    title: Faces
   - 
-    title: Gesichter
-  - 
-    title: Mach es heiß
+    title: Make it hot
