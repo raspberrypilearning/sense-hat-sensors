@@ -1,36 +1,25 @@
-## Visages
+## Make it hot
 
-1. Ouvrez un nouveau fichier Python et tapez:
-    
-    ```python
-from sense_hat import SenseHat
-from time import sleep
+\--- task \---
 
-sense = SenseHat()
+Replace the last line with:
 
-r = (255, 0, 0)
-v = (0, 255, 0)
-b = (0, 0, 255)
-j = (255, 255, 0)
-vi = (255, 0, 255)
-c = (0, 255, 255)
-bc = (255, 255, 255)
-n = (0, 0, 0)
+```python
+start_temperature = sense.temperature
 
-icone = [
-    n, n, n, n, n, n, n, n,
-    n, n, n, n, n, n, n, n,
-    n, n, b, n, n, b, n, n,
-    n, n, n, n, n, n, n, n,
-    n, n, n, n, n, n, n, n,
-    n, b, n, n, n, n, b, n,
-    n, b, b, b, b, b, b, n,
-    n, n, n, n, n, n, n, n,
-]
-
-sense.set_pixels(icone)
+while True:
+    print(sense.temperature)
+    if sense.temperature > start_temperature + 2:
+        sense.set_pixels(icon)
+    else:
+        sense.clear()
+    sleep(1)
 ```
 
-2. Maintenant, faites votre propre icône en utilisant les couleurs (`r` est rouge, `v` est vert, `b` est bleu, et ainsi de suite). Votre icône doit avoir 8x8 pixels comme l'exemple.
+\--- /task \---
 
-3. Exécutez le code avec la touche `F5` et vous devriez voir votre icône sur l'affichage du Sense HAT.
+\--- task \---
+
+Run the code again. Now press your finger against the temperature sensor on the Sense HAT and see if you can make your icon appear!
+
+\--- /task \---
