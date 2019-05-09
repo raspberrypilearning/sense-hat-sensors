@@ -1,19 +1,48 @@
-## सेंस एचएटी परीक्षण करें
+## Faces
 
-1. अजगर 3 खोलें और शेल में सीधे निम्नलिखित कमांड दर्ज करें:
-    
-    (चेवर्ण टाइप नहीं करें `>>>`)
-    
-    ```python
->>> sense_hat से आयात SenseHat>>> sense = SenseHat ()>>> sense.show_message ("हैलो वर्ल्ड")
+\--- task \---
+
+Open a new window and type:
+
+```python
+from sense_hat import SenseHat
+from time import sleep
+
+sense = SenseHat()
+
+r = (255, 0, 0)
+g = (0, 255, 0)
+b = (0, 0, 255)
+y = (255, 255, 0)
+p = (255, 0, 255)
+c = (0, 255, 255)
+w = (255, 255, 255)
+e = (0, 0, 0)
+
+icon = [
+    e, e, e, e, e, e, e, e,
+    e, e, e, e, e, e, e, e,
+    e, e, b, e, e, b, e, e,
+    e, e, e, e, e, e, e, e,
+    e, e, e, e, e, e, e, e,
+    e, b, e, e, e, e, b, e,
+    e, b, b, b, b, b, b, e,
+    e, e, e, e, e, e, e, e,
+]
+
+sense.set_pixels(icon)
 ```
 
-प्रेस `दर्ज करें` प्रत्येक पंक्ति के बाद, और तीसरी पंक्ति के बाद, संदेश सेंस हैट प्रदर्शन पर दिखाई देना चाहिए।
+\--- /task \---
 
-2. अब संवेदक मूल्यों को पुनः प्राप्त करने का प्रयास करें:
-    
-    ```python
->>> sense.temperature>>> sense.humidity>>> sense.pressure
-```
+\--- task \---
 
-जब आप दबाते हैं 123_6_0_321 | एन्टर करें</code>, आप सेंसर का मूल्य देखेंगे।
+Now make your own icon using the colours (`r` is red, `g` is green, `b` is blue and so on). Your icon must be 8x8 like the example.
+
+\--- /task \---
+
+\--- task \---
+
+Run the code with `F5` and you should see your icon on the Sense HAT display.
+
+\--- /task \---
