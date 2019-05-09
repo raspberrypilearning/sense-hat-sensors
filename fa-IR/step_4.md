@@ -1,11 +1,25 @@
-## چهره ها
+## Make it hot
 
-1. یک پنجره جدید باز کنید و تایپ کنید:
-    
-    ```python
-(0، 255، 0) b = (0، 0، 255) y = (255، 255، 0) p = (255، 0، 0) g = (0، 255، 0) = (255، 0، 255) c = (0، 255، 255) w = (255، 255، 255) e = (0، 0، 0) icon = [e، e، e، e، e، e، e، e، e، e، e، e، e، e، e، e، e، e، e، e، e، e، e، e، b، e، e، b، e، e، e، e، e، e، e، e، e، e، e، e، e، e، e، e، e، e، e، e، e، e، e، e، e، e، e، e، b، e، e، e، b، e، e، b، b، b، b، b، e، e، e، e، e، e، e، e، e،] sense.set_pixels (icon)
+\--- task \---
+
+Replace the last line with:
+
+```python
+start_temperature = sense.temperature
+
+while True:
+    print(sense.temperature)
+    if sense.temperature > start_temperature + 2:
+        sense.set_pixels(icon)
+    else:
+        sense.clear()
+    sleep(1)
 ```
 
-2. حالا آیکون خود را با استفاده از رنگ (| 123_6_0 | 321 | r</code> قرمز، `g` سبز، `ب` آبی و غیره است). نماد شما باید مانند 8x8 باشد.
+\--- /task \---
 
-3. اجرای کد با `F5` و شما باید نماد خود را در صفحه نمایش Sense HAT ببینید.
+\--- task \---
+
+Run the code again. Now press your finger against the temperature sensor on the Sense HAT and see if you can make your icon appear!
+
+\--- /task \---
