@@ -1,6 +1,6 @@
-## Introductie
+## Inleiding
 
-Learn to read sensor data from the Sense HAT using Python, and how to create pixel art on the Sense HAT's pixel display.
+Leer hoe je sensorgegevens van de Sense HAT kunt lezen met Python en hoe je pixelart kunt maken op de pixel display van de Sense HAT.
 
 \--- collapse \---
 
@@ -17,7 +17,7 @@ Learn to read sensor data from the Sense HAT using Python, and how to create pix
 
 * * *
 
-## title: What you will learn
+## title: Wat ga je leren
 
 - Reading sensor data from the Sense HAT using Python
 - RGB colours
