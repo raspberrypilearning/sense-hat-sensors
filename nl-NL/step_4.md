@@ -1,25 +1,17 @@
-## Make it hot
+## Maak het heet
 
 \--- task \---
 
-Replace the last line with:
+Vervang de laatste regel door:
 
 ```python
-start_temperature = sense.temperature
-
-while True:
-    print(sense.temperature)
-    if sense.temperature > start_temperature + 2:
-        sense.set_pixels(icon)
-    else:
-        sense.clear()
-    sleep(1)
+start_temperature = sense.temperature while True: print (sense.temperature) if sense.temperature > start_temperature + 2: sense.set_pixels (icon) else: sense.clear () sleep (1)
 ```
 
-\--- /task \---
+\---/task\---
 
 \--- task \---
 
-Run the code again. Now press your finger against the temperature sensor on the Sense HAT and see if you can make your icon appear!
+Voer de code opnieuw uit. Druk nu met je vinger tegen de temperatuursensor op de Sense HAT en kijk of je jouw pictogram kunt laten verschijnen!
 
 \--- /task \---
