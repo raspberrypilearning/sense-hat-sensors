@@ -4,7 +4,7 @@ hero_image: afbeeldingen / banner.png
 description: Leer hoe je sensorgegevens van de Sense HAT kunt lezen met Python en hoe je pixelart kunt maken op de pixel display van de Sense HAT
 listed: false
 copyedit: false
-version: 3
+version: 4
 last_tested: 2017-01-01
 steps:
   - 
