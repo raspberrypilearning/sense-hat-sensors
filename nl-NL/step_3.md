@@ -1,48 +1,23 @@
-## Faces
+## Gezichten
 
 \--- task \---
 
-Open a new window and type:
+Open een nieuw venster en typ:
 
 ```python
-from sense_hat import SenseHat
-from time import sleep
-
-sense = SenseHat()
-
-r = (255, 0, 0)
-g = (0, 255, 0)
-b = (0, 0, 255)
-y = (255, 255, 0)
-p = (255, 0, 255)
-c = (0, 255, 255)
-w = (255, 255, 255)
-e = (0, 0, 0)
-
-icon = [
-    e, e, e, e, e, e, e, e,
-    e, e, e, e, e, e, e, e,
-    e, e, b, e, e, b, e, e,
-    e, e, e, e, e, e, e, e,
-    e, e, e, e, e, e, e, e,
-    e, b, e, e, e, e, b, e,
-    e, b, b, b, b, b, b, e,
-    e, e, e, e, e, e, e, e,
-]
-
-sense.set_pixels(icon)
+from sense_hat importeer SenseHat van tijdimport slaap sense = SenseHat () r = (255, 0, 0) g = (0, 255, 0) b = (0, 0, 255) y = (255, 255, 0) p = (255, 0, 255) c = (0, 255, 255) w = (255, 255, 255) e = (0, 0, 0) icon = [e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, b, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e, e. e, e, e, e, e, e, e, b, e, e, e, b, e, b, b, b, b, b, b, e, e, e, e, e, e, e, e,] sense.set_pixels (pictogram)
 ```
 
+\---/task\---
+
+\--- task \---
+
+Maak nu je eigen pictogram met de kleuren (`r` is rood, `g` is groen, `b` is blauw enzovoort). Je pictogram moet 8x8 zijn, zoals het voorbeeld.
+
 \--- /task \---
 
 \--- task \---
 
-Now make your own icon using the colours (`r` is red, `g` is green, `b` is blue and so on). Your icon must be 8x8 like the example.
-
-\--- /task \---
-
-\--- task \---
-
-Run the code with `F5` and you should see your icon on the Sense HAT display.
+Voer de code uit met `F5` en je zou je pictogram moeten zien op het Sense HAT-display.
 
 \--- /task \---
