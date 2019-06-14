@@ -1,8 +1,8 @@
-## Faces
+## चेहरे
 
 \--- task \---
 
-Open a new window and type:
+एक नई विंडो को खोले और टाइप करे:
 
 ```python
 from sense_hat import SenseHat
@@ -37,12 +37,12 @@ sense.set_pixels(icon)
 
 \--- task \---
 
-Now make your own icon using the colours (`r` is red, `g` is green, `b` is blue and so on). Your icon must be 8x8 like the example.
+अब रंगों का उपयोग करके अपना खुद का आइकन बनाएं (`r` लाल, `g` हरा, `b` नीला और आदि)। उदाहरण के प्रकार आपका आइकन 8x8 होना चाहिए।
 
 \--- /task \---
 
 \--- task \---
 
-Run the code with `F5` and you should see your icon on the Sense HAT display.
+`F5` दबाकर कोड चलाएं और आपको Sense HAT डिस्प्ले पर अपना आइकन दिखाई देना चाहिए।
 
 \--- /task \---
