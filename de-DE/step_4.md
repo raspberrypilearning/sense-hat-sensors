@@ -1,18 +1,18 @@
-## Make it hot
+## Mach es heiß
 
 \--- task \---
 
-Replace the last line with:
+Ersetze die letzte Zeile durch:
 
 ```python
-start_temperature = sense.temperature
+start_temperatur = sensoren.temperature
 
 while True:
-    print(sense.temperature)
-    if sense.temperature > start_temperature + 2:
-        sense.set_pixels(icon)
+    print(sensoren.temperature)
+    if sensoren.temperature > start_temperatur + 2:
+        sensoren.set_pixels(bild)
     else:
-        sense.clear()
+        sensoren.clear()
     sleep(1)
 ```
 
@@ -20,6 +20,6 @@ while True:
 
 \--- task \---
 
-Run the code again. Now press your finger against the temperature sensor on the Sense HAT and see if you can make your icon appear!
+Führe den Code erneut aus. Drücke nun deinen Finger gegen den Temperatursensor des Sense HAT und schau, ob du dein Bild erscheinen lassen kannst!
 
 \--- /task \---
