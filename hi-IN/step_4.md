@@ -1,8 +1,8 @@
-## Make it hot
+## इसे गर्म करे
 
 \--- task \---
 
-Replace the last line with:
+आखिरी लाइन को नीचे दिए गए लाइनों से बदलें:
 
 ```python
 start_temperature = sense.temperature
@@ -20,6 +20,6 @@ while True:
 
 \--- task \---
 
-Run the code again. Now press your finger against the temperature sensor on the Sense HAT and see if you can make your icon appear!
+कोड फिर से चलाएं। अब Sense HAT पर तापमान सेंसर के खिलाफ अपनी उंगली दबाएं और देखें कि क्या आप अपना आइकन प्रदर्शित कर सकते हैं!
 
 \--- /task \---
