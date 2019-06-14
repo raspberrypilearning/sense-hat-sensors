@@ -1,10 +1,10 @@
-## Test the Sense HAT
+## Sense HAT का परीक्षण करें
 
 \--- task \---
 
-Open Python 3 and enter the following commands directly into the shell:
+Python 3 खोलें और शेल में सीधे निम्नलिखित कमांड दर्ज करें:
 
-(do not type the chevrons `>>>`)
+(चेवर्ण टाइप न करें `>>>`)
 
 ```python
 >>> from sense_hat import SenseHat
@@ -12,13 +12,13 @@ Open Python 3 and enter the following commands directly into the shell:
 >>> sense.show_message("Hello world")
 ```
 
-Press `Enter` after each line, and after the third line, the message should appear on the Sense HAT's display.
+प्रत्येक पंक्ति के बाद `Enter` दबाए, और तीसरी पंक्ति के बाद, 'Hello world' संदेश Sense HAT की डिस्प्लेय पर दिखाई देना चाहिए।
 
 \--- /task \---
 
 \--- task \---
 
-Now try retrieving the sensor values:
+अब सेंसर मूल्यों को पुनः प्राप्त करने का प्रयास करें:
 
 ```python
 >>> sense.temperature
@@ -26,6 +26,6 @@ Now try retrieving the sensor values:
 >>> sense.pressure
 ```
 
-When you press `Enter`, you will see the sensor's value.
+`Enter` दबाने के पश्च्यात, आप सेंसर मूल्य देख सकेंगे।
 
 \--- /task \---
