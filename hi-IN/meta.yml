@@ -1,17 +1,17 @@
 ---
 title: Sense HAT सेंसर
 hero_image: images/banner.png
-description: Sense HAT द्वारा Python की मदद से सेंसर डाटा पढ़े, और Sense HAT के पिक्सेल डिस्प्ले पर पिक्सेल कला बनाए
+description: Sense HAT द्वारा Python की मदद से सेंसर डाटा पढ़े, और Sense HAT के पिक्सेल डिस्प्ले पर पिक्सेल कला बनाए।
 listed: false
 copyedit: false
 version: 4.1
 last_tested: 2018-11-21
 steps:
   - 
-    title: परिचय
+    title: भूमिका
   - 
-    title: Test the Sense HAT
+    title: Sense HAT का परीक्षण करें
   - 
-    title: Faces
+    title: चेहरे
   - 
-    title: Make it hot
+    title: इसे गर्म करे
