@@ -1,8 +1,8 @@
-## Faces
+## Visages
 
 \--- task \---
 
-Open a new window and type:
+Ouvre une nouvelle fenêtre et tape:
 
 ```python
 from sense_hat import SenseHat
@@ -10,39 +10,39 @@ from time import sleep
 
 sense = SenseHat()
 
-r = (255, 0, 0)
-g = (0, 255, 0)
-b = (0, 0, 255)
-y = (255, 255, 0)
-p = (255, 0, 255)
-c = (0, 255, 255)
-w = (255, 255, 255)
+rg = (255, 0, 0)
+vt = (0, 255, 0)
+bl = (0, 0, 255)
+jn = (255, 255, 0)
+mg = (255, 0, 255)
+cy = (0, 255, 255)
+bc = (255, 255, 255)
 e = (0, 0, 0)
 
-icon = [
+icone = [
     e, e, e, e, e, e, e, e,
     e, e, e, e, e, e, e, e,
-    e, e, b, e, e, b, e, e,
+    e, e, bl, e, e, bl, e, e,
     e, e, e, e, e, e, e, e,
     e, e, e, e, e, e, e, e,
-    e, b, e, e, e, e, b, e,
-    e, b, b, b, b, b, b, e,
+    e, bl, e, e, e, e, bl, e,
+    e, bl, bl, bl, bl, bl, bl, e,
     e, e, e, e, e, e, e, e,
 ]
 
-sense.set_pixels(icon)
+sense.set_pixels(icone)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Now make your own icon using the colours (`r` is red, `g` is green, `b` is blue and so on). Your icon must be 8x8 like the example.
+Crée maintenant ta propre icône en utilisant les couleurs (`rg` est rouge, `vt` est vert, `bl` est bleu et ainsi de suite). Ton icône devra avoir une taille de 8x8 comme dans l'exemple.
 
 \--- /task \---
 
 \--- task \---
 
-Run the code with `F5` and you should see your icon on the Sense HAT display.
+Exécute le code avec `F5` et tu devrais voir ton icone s'afficher sur le Sense HAT.
 
 \--- /task \---
