@@ -1,8 +1,8 @@
-## Faces
+## Arcok
 
 \--- task \---
 
-Open a new window and type:
+Nyiss meg egy új ablakot és írd be:
 
 ```python
 from sense_hat import SenseHat
@@ -19,7 +19,7 @@ c = (0, 255, 255)
 w = (255, 255, 255)
 e = (0, 0, 0)
 
-icon = [
+ikon = [
     e, e, e, e, e, e, e, e,
     e, e, e, e, e, e, e, e,
     e, e, b, e, e, b, e, e,
@@ -30,19 +30,19 @@ icon = [
     e, e, e, e, e, e, e, e,
 ]
 
-sense.set_pixels(icon)
+sense.set_pixels(ikon)
 ```
 
 \--- /task \---
 
 \--- task \---
 
-Now make your own icon using the colours (`r` is red, `g` is green, `b` is blue and so on). Your icon must be 8x8 like the example.
+Most készítsd el a saját ikonodat a színek segítségvel (az `r` a piros, a `g` a zöld, a `b` a kék és így tovább). Az ikonodnak 8x8 nagyságúnak kell lennie, mint a példában.
 
 \--- /task \---
 
 \--- task \---
 
-Run the code with `F5` and you should see your icon on the Sense HAT display.
+Futtasd a kódot az `F5`-tel és látnod kellene az ikonodat megjelenni a Sense HAT kijelzőjén.
 
 \--- /task \---
