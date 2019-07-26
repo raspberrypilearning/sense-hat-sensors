@@ -1,24 +1,24 @@
-## Test the Sense HAT
+## Teszteld a Sense HAT-et
 
 \--- task \---
 
-Open Python 3 and enter the following commands directly into the shell:
+Nyisd meg a Python 3-at és add meg a következő parancsot közvetlenül a shell-be:
 
-(do not type the chevrons `>>>`)
+(ne írd be a `>>>` jeleket)
 
 ```python
 >>> from sense_hat import SenseHat
 >>> sense = SenseHat()
->>> sense.show_message("Hello world")
+>>> sense.show_message("Helló világ")
 ```
 
-Press `Enter` after each line, and after the third line, the message should appear on the Sense HAT's display.
+Üss `Enter`-t minden sor után és a harmadik sor után a szövegnek meg kellene jelennie a Sense HAT kijelzőjén.
 
 \--- /task \---
 
 \--- task \---
 
-Now try retrieving the sensor values:
+Most próbáld meg lekérdezni az érzékelő értékeit:
 
 ```python
 >>> sense.temperature
@@ -26,6 +26,6 @@ Now try retrieving the sensor values:
 >>> sense.pressure
 ```
 
-When you press `Enter`, you will see the sensor's value.
+Miután megnyomod az `Enter`-t, láthatod az érzékelő értékeit.
 
 \--- /task \---
