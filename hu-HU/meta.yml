@@ -1,7 +1,7 @@
 ---
 title: Sense HAT érzékelők
-hero_image: images / banner.png
-description: Tanulja meg a Sensor adatok olvasását a Sense HAT-ból Python segítségével, és hogyan készítsen pixel artot a Sense HAT képpont kijelzőjén
+hero_image: images/banner.png
+description: Tanuld meg, hogyan olvashatod a Sense HAT érzékelő adatait Python használatával és hogyan hozz létre pixel ábrákat a Sense HAT pixel kijelzőjén
 listed: false
 copyedit: false
 version: 4.1
@@ -10,8 +10,8 @@ steps:
   - 
     title: Bevezetés
   - 
-    title: Test the Sense HAT
+    title: Teszteld a Sense HAT-et
   - 
-    title: Faces
+    title: Arcok
   - 
-    title: Make it hot
+    title: Melegítsd fel
