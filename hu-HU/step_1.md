@@ -1,14 +1,14 @@
 ## Bevezetés
 
-Learn to read sensor data from the Sense HAT using Python, and how to create pixel art on the Sense HAT's pixel display.
+Tanuld meg, hogyan olvashatod a Sense HAT érzékelő adatait Python használatával és hogyan hozz létre pixel ábárkat a Sense HAT pixel kijelzőjén.
 
 \--- collapse \---
 
 * * *
 
-## title: What you will need
+## title: Amire szükséged lesz
 
-- Raspberry Pi computer
+- Raspberry Pi számítógép
 - Sense HAT
 
 \--- /collapse \---
@@ -17,11 +17,11 @@ Learn to read sensor data from the Sense HAT using Python, and how to create pix
 
 * * *
 
-## title: What you will learn
+## title: Amit meg fogsz tanulni
 
-- Reading sensor data from the Sense HAT using Python
-- RGB colours
-- How to create pixel art
+- Hogyan olvashatod a Sense HAT érzékelő adatait Python használatával
+- RGB-színek
+- Hogyan készíts ábrákat pixelekből
 
 \--- /collapse \---
 
@@ -29,11 +29,11 @@ Learn to read sensor data from the Sense HAT using Python, and how to create pix
 
 * * *
 
-## title: Information for Jam organisers
+## title: Információ Jam szervezőknek
 
 \--- no-print \---
 
-If you need to print this project, a [PDF version](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Sense-HAT-Sensors.pdf) is available. Please observe any notes on this page before printing.
+Ha ki kell nyomtatnod a projektet, elérhető [PDF verzióban](https://github.com/raspberrypilearning/jam-worksheets/raw/master/pdf/Sense-HAT-Sensors.pdf). Olvass el minden megjegyzést ezen az oldalon a nyomtatás előtt.
 
 \--- /no-print \---
 
