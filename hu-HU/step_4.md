@@ -1,8 +1,8 @@
-## Make it hot
+## Melegítsd fel
 
 \--- task \---
 
-Replace the last line with:
+Cseréld le az utolsó sort erre:
 
 ```python
 start_temperature = sense.temperature
@@ -10,7 +10,7 @@ start_temperature = sense.temperature
 while True:
     print(sense.temperature)
     if sense.temperature > start_temperature + 2:
-        sense.set_pixels(icon)
+        sense.set_pixels(ikon)
     else:
         sense.clear()
     sleep(1)
@@ -20,6 +20,6 @@ while True:
 
 \--- task \---
 
-Run the code again. Now press your finger against the temperature sensor on the Sense HAT and see if you can make your icon appear!
+Futtasd újra a kódot. Most tedd az ujjad a Sense HAT hőmérsékletérzékelőjére és nézd meg, hogy megjelenik-e az ikonod!
 
 \--- /task \---
