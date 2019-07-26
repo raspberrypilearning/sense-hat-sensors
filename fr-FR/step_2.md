@@ -1,24 +1,24 @@
-## Test the Sense HAT
+## Tester le Sense HAT
 
 \--- task \---
 
-Open Python 3 and enter the following commands directly into the shell:
+Ouvre Python 3 et entre les commandes suivantes directement dans l'interpréteur de commande:
 
-(do not type the chevrons `>>>`)
+(ne tape pas les chevrons `>>>`)
 
 ```python
 >>> from sense_hat import SenseHat
 >>> sense = SenseHat()
->>> sense.show_message("Hello world")
+>>> sense.show_message("Bonjour tout le monde")
 ```
 
-Press `Enter` after each line, and after the third line, the message should appear on the Sense HAT's display.
+Appuie sur `Entrée` après chaque ligne, et après la troisième ligne, le message devrait apparaître sur l'écran du Sense HAT.
 
 \--- /task \---
 
 \--- task \---
 
-Now try retrieving the sensor values:
+Maintenant essaie de récupérer les valeurs des capteurs:
 
 ```python
 >>> sense.temperature
@@ -26,6 +26,6 @@ Now try retrieving the sensor values:
 >>> sense.pressure
 ```
 
-When you press `Enter`, you will see the sensor's value.
+Lorsque tu appuies sur `Entrer`, tu vas voir la valeur du capteur.
 
 \--- /task \---
